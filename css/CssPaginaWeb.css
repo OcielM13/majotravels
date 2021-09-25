@@ -1,0 +1,149 @@
+head {
+text-align: center;
+}
+
+.image-menu {
+     position: relative;
+     width: 100%; /* for IE 6 */
+     background-image: url("../img/fond1.jpg");
+     background-size: cover;
+}
+
+.text-menu {
+        list-style:none;
+        position: relative;
+        padding: 0% 0% 10% 0%;
+    }
+
+body {
+
+}
+
+#lista1 h1 {
+	display:inline;
+	font: 45px/30px monospace;
+	text-align: left;
+}
+
+#EspSlider h2 {
+	font: 50px monospace;
+	text-align: center;
+	color:white; 
+}
+
+
+#lista1 li {
+    display:inline;
+	float:right;
+	font: bold 15px/25px Helvetica;
+    width:10%;
+	padding:5px 10px;
+}
+
+#lista1 a {
+    color:white;
+    text-decoration:none;	
+}
+
+a:hover {
+    background-color:#41ff16;
+	border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.boton {
+	border: 1px solid #41ff16; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #41ff16; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+}
+     
+#Boton {
+		text-align: center;
+}
+
+.terms {
+  display: flex;
+}
+
+.terms > p {
+  margin: 0;
+}
+
+#tablimg th,td,tr {
+	font: 30px monospace;
+	text-align:center;
+	text-decoration:none;
+}
+
+#tablimg a{
+	text-decoration:none;
+}
+
+#Formu1{
+	font: 12px monospace;
+	text-align:left;
+}
+
+#Formu2{
+	font: 16px monospace;
+	text-align:center;	
+}
+
+#Formu2 fieldset{
+	background:White;
+	display: block;
+	margin-left:30%;
+	margin-right: 30%;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: none;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#Formu2 h1 {
+		font-weight: bold;
+		text-align:Left;
+}
+
+#Formu2 img {
+    height: 13px;  
+    width: 25px;
+}
+
+#Search {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 80%;
+	background:#41ff16;
+	font-weight: bold;
+	font: 30px monospace;
+	color:White;
+	border-radius: 10px;
+	border-color:#a3a6ba;
+}
+
+h1, h2, h3, p{
+	font: 30px monospace;
+}
+
+#Formulario1 {
+	text-align:center;
+	text-decoration:none;
+}
+
+#address a{
+	color:#41ff16;
+    text-decoration:none;	
+}
+
